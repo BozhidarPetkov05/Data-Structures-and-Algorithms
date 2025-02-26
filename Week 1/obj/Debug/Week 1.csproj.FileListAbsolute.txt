@@ -1,0 +1,8 @@
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Week 1\bin\Debug\Week 1.exe.config
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Week 1\bin\Debug\Week 1.exe
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Week 1\bin\Debug\Week 1.pdb
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Week 1\obj\Debug\Week 1.csproj.AssemblyReference.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Week 1\obj\Debug\Week 1.csproj.SuggestedBindingRedirects.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Week 1\obj\Debug\Week 1.csproj.CoreCompileInputs.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Week 1\obj\Debug\Week 1.exe
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Week 1\obj\Debug\Week 1.pdb
