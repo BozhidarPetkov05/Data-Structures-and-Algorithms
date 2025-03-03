@@ -11,9 +11,12 @@ namespace Sorting_Algorithms
     {
         static void Main(string[] args)
         {
-            SortingChecker("asd");
-            SortingChecker("Bubble Sort");
-            SortingChecker("Selection Sort");   
+            //SortingChecker("asd");
+            //SortingChecker("Bubble Sort");
+            //SortingChecker("Selection Sort");   
+            int[] arr = { 4, 3, 2, 1 };
+            Algorithms.QuadMergeSort(arr, 0, arr.Length - 1);
+            PrintArray(arr);
         }
 
         public static void PrintArray(int[] arr)
@@ -28,9 +31,9 @@ namespace Sorting_Algorithms
         public static int[] ArrayFiller()
         {
             int Min = 0;
-            int Max = 10000;
+            int Max = 100;
 
-            int[] arr = new int[40000];
+            int[] arr = new int[10];
             Random randNum = new Random();
             for (int i = 0; i < arr.Length; i++)
             {
