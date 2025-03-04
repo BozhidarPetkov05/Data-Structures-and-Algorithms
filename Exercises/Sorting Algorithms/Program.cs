@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace Sorting_Algorithms
 {
@@ -11,10 +10,18 @@ namespace Sorting_Algorithms
     {
         static void Main(string[] args)
         {
-            //SortingChecker("asd");
+
+            int[] arr = { 6, 5, 3, 1, 7, 8, 2, 9, 4, 10 }; //10 elements
+            //int[] arr = { 6, 5, 1 }; //3 elements
+            //int[] arr = { 3, 5, 6, 1}; //4 elements
+            //int[] arr = { 3, 5, 6, 1, 8}; //5 elements
+            //int[] arr = { 3, 5, 6, 1, 7, 8, 2, 9, 4, 10, 15, 13, 90, 87,45, 32}; //16 elements
+            //int[] arr = { 3, 5, 6, 1, 7, 8, 2, 9, 4, 10, 3, 9, 8 }; //repeating elements
+            
             //SortingChecker("Bubble Sort");
             //SortingChecker("Selection Sort");   
-            int[] arr = { 4, 3, 2, 1 };
+            //SortingChecker("Merge Sort");
+            //SortingChecker("Quad Merge");
             Algorithms.QuadMergeSort(arr, 0, arr.Length - 1);
             PrintArray(arr);
         }
@@ -31,9 +38,9 @@ namespace Sorting_Algorithms
         public static int[] ArrayFiller()
         {
             int Min = 0;
-            int Max = 100;
+            int Max = 10000;
 
-            int[] arr = new int[10];
+            int[] arr = new int[10000000];
             Random randNum = new Random();
             for (int i = 0; i < arr.Length; i++)
             {
@@ -61,6 +68,7 @@ namespace Sorting_Algorithms
                     watch.Stop();
                     TimeCheck(watch.ElapsedMilliseconds);
                     watch.Reset();
+
                     break;
 
                 case "Selection Sort":
@@ -69,6 +77,28 @@ namespace Sorting_Algorithms
 
                     watch = System.Diagnostics.Stopwatch.StartNew();
                     Algorithms.SelectionSort(selectionSorted);
+                    watch.Stop();
+                    TimeCheck(watch.ElapsedMilliseconds);
+                    watch.Reset();
+                    break;
+
+                case "Merge Sort":
+                    int[] mergeSorted = ArrayFiller();
+                    Console.WriteLine("Generated Merge Sort...");
+
+                    watch = System.Diagnostics.Stopwatch.StartNew();
+                    Algorithms.MergeSort(mergeSorted, 0, mergeSorted.Length - 1);
+                    watch.Stop();
+                    TimeCheck(watch.ElapsedMilliseconds);
+                    watch.Reset();
+                    break;
+
+                case "Quad Merge":
+                    int[] quadSorted = ArrayFiller();
+                    Console.WriteLine("Generated Quad Sort...");
+
+                    watch = System.Diagnostics.Stopwatch.StartNew();
+                    Algorithms.QuadMergeSort(quadSorted, 0, quadSorted.Length - 1);
                     watch.Stop();
                     TimeCheck(watch.ElapsedMilliseconds);
                     watch.Reset();

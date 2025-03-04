@@ -144,10 +144,10 @@ namespace Sorting_Algorithms
             int secondMiddle = start + (end - start) / 2;
             int thirdMiddle = start + 3 * (end - start) / 4;
 
-            if (firstMiddle >= start) QuadMergeSort(arr, start, firstMiddle);
-            if (secondMiddle >= firstMiddle + 1) QuadMergeSort(arr, firstMiddle + 1, secondMiddle);
-            if (thirdMiddle >= secondMiddle + 1) QuadMergeSort(arr, secondMiddle + 1, thirdMiddle);
-            if (end >= thirdMiddle + 1) QuadMergeSort(arr, thirdMiddle + 1, end);
+            QuadMergeSort(arr, start, firstMiddle);
+            QuadMergeSort(arr, firstMiddle + 1, secondMiddle);
+            QuadMergeSort(arr, secondMiddle + 1, thirdMiddle);
+            QuadMergeSort(arr, thirdMiddle + 1, end);
 
             QuadMerge(arr, start, firstMiddle, secondMiddle, thirdMiddle, end);
             
@@ -189,61 +189,82 @@ namespace Sorting_Algorithms
 
             int mainIndex = start;
 
-            while (firstIndex < size1 && secondIndex < size2 && thirdIndex < size3 && fourthIndex < size4)
+            while (firstIndex < size1 || secondIndex < size2 || thirdIndex < size3 || fourthIndex < size4)
             {
-                int smallest = Math.Min(Math.Min(temp1[firstIndex], temp2[secondIndex]), Math.Min(temp3[thirdIndex], temp4[fourthIndex]));
+                int smallest = int.MaxValue;
+                int arrayNum = -1;
 
-                if (smallest == temp1[firstIndex])
+                if (firstIndex < size1 && temp1[firstIndex] < smallest)
                 {
-                    arr[mainIndex] = temp1[firstIndex];
-                    firstIndex++;
+                    smallest = temp1[firstIndex];
+                    arrayNum = 1;
                 }
-                else if (smallest == temp2[secondIndex])
+                if (secondIndex < size2 && temp2[secondIndex] < smallest)
                 {
-                    arr[mainIndex] = temp2[secondIndex];
-                    secondIndex++;
+                    smallest = temp2[secondIndex];
+                    arrayNum = 2;
                 }
-                else if (smallest == temp3[thirdIndex])
+                if (thirdIndex < size3 && temp3[thirdIndex] < smallest)
                 {
-                    arr[mainIndex] = temp3[thirdIndex];
-                    thirdIndex++;
+                    smallest = temp3[thirdIndex];
+                    arrayNum = 3;
                 }
-                else if (smallest == temp4[fourthIndex])
+                if (fourthIndex < size4 && temp4[fourthIndex] < smallest)
                 {
-                    arr[mainIndex] = temp4[fourthIndex];
-                    fourthIndex++;
+                    smallest = temp4[fourthIndex];
+                    arrayNum = 4;
                 }
 
+                switch (arrayNum)
+                {
+                    case 1:
+                        firstIndex++;
+                        break;
+                    case 2:
+                        secondIndex++;
+                        break;
+                    case 3:
+                        thirdIndex++;
+                        break;
+                    case 4:
+                        fourthIndex++;
+                        break;
+                    default:
+                        break;
+                }
+
+                arr[mainIndex] = smallest;
+
                 mainIndex++;
             }
 
-            while (firstIndex < size1)
-            {
-                arr[mainIndex] = temp1[firstIndex];
-                firstIndex++;
-                mainIndex++;
-            }
+            //while (firstIndex < size1)
+            //{
+            //    arr[mainIndex] = temp1[firstIndex];
+            //    firstIndex++;
+            //    mainIndex++;
+            //}
 
-            while (secondIndex < size2) 
-            {
-                arr[mainIndex] = temp2[secondIndex];
-                secondIndex++;
-                mainIndex++;
-            }
+            //while (secondIndex < size2) 
+            //{
+            //    arr[mainIndex] = temp2[secondIndex];
+            //    secondIndex++;
+            //    mainIndex++;
+            //}
 
-            while (thirdIndex < size3)
-            {
-                arr[mainIndex] = temp3[thirdIndex];
-                thirdIndex++;
-                mainIndex++;
-            }
+            //while (thirdIndex < size3)
+            //{
+            //    arr[mainIndex] = temp3[thirdIndex];
+            //    thirdIndex++;
+            //    mainIndex++;
+            //}
 
-            while (fourthIndex < size4)
-            {
-                arr[mainIndex++] = temp4[fourthIndex];
-                fourthIndex++;
-                mainIndex++;
-            }
+            //while (fourthIndex < size4)
+            //{
+            //    arr[mainIndex] = temp4[fourthIndex];
+            //    fourthIndex++;
+            //    mainIndex++;
+            //}
         }
     }
 }
