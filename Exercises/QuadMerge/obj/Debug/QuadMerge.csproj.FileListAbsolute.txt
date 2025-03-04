@@ -1,0 +1,8 @@
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exercises\QuadMerge\obj\Debug\QuadMerge.csproj.AssemblyReference.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exercises\QuadMerge\obj\Debug\QuadMerge.csproj.SuggestedBindingRedirects.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exercises\QuadMerge\obj\Debug\QuadMerge.csproj.CoreCompileInputs.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exercises\QuadMerge\bin\Debug\QuadMerge.exe.config
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exercises\QuadMerge\bin\Debug\QuadMerge.exe
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exercises\QuadMerge\bin\Debug\QuadMerge.pdb
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exercises\QuadMerge\obj\Debug\QuadMerge.exe
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exercises\QuadMerge\obj\Debug\QuadMerge.pdb
