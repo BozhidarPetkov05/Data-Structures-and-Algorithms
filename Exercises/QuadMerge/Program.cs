@@ -10,12 +10,12 @@ namespace QuadMerge
     {
         static void Main(string[] args)
         {
-            int[] arr = { 6, 5, 3, 1, 7, 8, 2, 9, 4, 10 }; //10 elements
-            //int[] arr = { 6, 5, 1 }; //3 elements
-            //int[] arr = { 3, 5, 6, 1}; //4 elements
-            //int[] arr = { 3, 5, 6, 1, 8}; //5 elements
-            //int[] arr = { 3, 5, 6, 1, 7, 8, 2, 9, 4, 10, 15, 13, 90, 87,45, 32}; //16 elements
-            //int[] arr = { 3, 5, 6, 1, 7, 8, 2, 9, 4, 10, 3, 9, 8 }; //repeating elements
+            //int[] arr = { 8, 6, 2 }; //3 elementa
+            //int[] arr = { 8, 6, 2, 1}; //4 elementa
+            //int[] arr = { 8, 5, 4, 2, 1}; //5 elementa
+            //int[] arr = { 8, 1, 2, 3, 14, 8, 19, 2, 82, 45 }; //10 elementa
+            int[] arr = { 45, 1, 2, 3, 4, 5, 7, 8, 10, 115, 84, 17, 74, 66, 13, 58}; //16 elementa
+            //int[] arr = ArrayFiller(); //proizvolni 10000 elementa
             QuadMergeSort(arr, 0, arr.Length - 1);
             PrintArray(arr);
         }
@@ -34,7 +34,7 @@ namespace QuadMerge
             int Min = 0;
             int Max = 10000;
 
-            int[] arr = new int[10000000];
+            int[] arr = new int[10000];
             Random randNum = new Random();
             for (int i = 0; i < arr.Length; i++)
             {
@@ -64,7 +64,7 @@ namespace QuadMerge
 
         }
 
-        private static void QuadMerge(int[] arr, int start, int firstMiddle, int secondMiddle, int thirdMiddle, int end)
+        public static void QuadMerge(int[] arr, int start, int firstMiddle, int secondMiddle, int thirdMiddle, int end)
         {
             int size1 = firstMiddle - start + 1;
             int size2 = secondMiddle - firstMiddle;
@@ -148,35 +148,6 @@ namespace QuadMerge
 
                 mainIndex++;
             }
-
-            //while (firstIndex < size1)
-            //{
-            //    arr[mainIndex] = temp1[firstIndex];
-            //    firstIndex++;
-            //    mainIndex++;
-            //}
-
-            //while (secondIndex < size2) 
-            //{
-            //    arr[mainIndex] = temp2[secondIndex];
-            //    secondIndex++;
-            //    mainIndex++;
-            //}
-
-            //while (thirdIndex < size3)
-            //{
-            //    arr[mainIndex] = temp3[thirdIndex];
-            //    thirdIndex++;
-            //    mainIndex++;
-            //}
-
-            //while (fourthIndex < size4)
-            //{
-            //    arr[mainIndex] = temp4[fourthIndex];
-            //    fourthIndex++;
-            //    mainIndex++;
-            //}
         }
     }
 }
-
