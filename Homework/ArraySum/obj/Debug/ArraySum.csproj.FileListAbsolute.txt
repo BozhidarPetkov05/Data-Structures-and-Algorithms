@@ -1,0 +1,8 @@
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Homework\ArraySum\obj\Debug\ArraySum.csproj.AssemblyReference.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Homework\ArraySum\obj\Debug\ArraySum.csproj.SuggestedBindingRedirects.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Homework\ArraySum\obj\Debug\ArraySum.csproj.CoreCompileInputs.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Homework\ArraySum\bin\Debug\ArraySum.exe.config
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Homework\ArraySum\bin\Debug\ArraySum.exe
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Homework\ArraySum\bin\Debug\ArraySum.pdb
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Homework\ArraySum\obj\Debug\ArraySum.exe
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Homework\ArraySum\obj\Debug\ArraySum.pdb
