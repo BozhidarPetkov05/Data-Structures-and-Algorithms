@@ -1,0 +1,165 @@
+//1. Задача
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace GrowingRow
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            double[] arr = new double[9];
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.Write($"Enter a number at index {i}: ");
+                double num = double.Parse(Console.ReadLine());
+
+                if (num < -99.99)
+                {
+                    num = -99.99;
+                }
+                else if (num > 99.99)
+                {
+                    num = 99.99;
+                }
+
+                arr[i] = num;
+            }
+
+            if (IsGrowing(arr))
+            {
+                Console.WriteLine("The row is monotonically increasing");
+            }
+            else
+            {
+                Console.WriteLine("The row is not monotonically increasing");
+            }
+        }
+
+        public static bool IsGrowing(double[] arr, int index = 0)
+        {
+            if (index == arr.Length - 1)
+            {
+                return true;
+            }
+            if (arr[index] > arr[index + 1])
+            {
+                return false;
+            }
+  
+            return IsGrowing(arr, index + 1);
+        }
+    }
+}
+
+
+//2. Задача
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.InteropServices;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ClosestPrime
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int n;
+            Console.Write("Enter a number (10 - 100010): ");
+            n = int.Parse(Console.ReadLine());
+            if (n < 10)
+            {
+                n = 10;
+            }
+            else if (n > 100010)
+            {
+                n = 100010;
+            }
+
+            Console.WriteLine($"Closest bigger prime number to {n}: {ClosestPrime(n)}");
+        }
+
+        public static int ClosestPrime(int n)
+        {
+            int current = n + 1;
+            while (true)
+            {
+                bool isPrime = true;
+
+                for (int i = 2; i < current / 2; i++)
+                {
+                    if (current % i == 0)
+                    {
+                        isPrime = false;
+                        break;
+                    }
+                }
+
+                if (isPrime)
+                {
+                    return current;
+                }
+                else
+                {
+                    current++;
+                }
+            }
+        }
+    }
+}
+
+//3. Задача
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SumOfDigits
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int n;
+            Console.Write("Enter a number (10 - 10010): ");
+            n = int.Parse(Console.ReadLine());
+
+            if (n < 10)
+            {
+                n = 10;
+            }
+            else if (n > 10010)
+            {
+                n = 10010;
+            }
+
+            Console.WriteLine($"Digit sum of {n} is {DigitsSum(n)}");
+        }
+
+        public static int DigitsSum(int n, int currentIndex = 0)
+        {
+            string stringifiedNum = n.ToString();
+            
+            if (currentIndex == stringifiedNum.Length - 1)
+            {
+                return int.Parse(stringifiedNum[currentIndex].ToString());
+            }
+
+            string currentNumString = stringifiedNum.Substring(currentIndex, 1);
+            int currentNum = int.Parse(currentNumString);
+            currentIndex++;
+
+            return currentNum + DigitsSum(n, currentIndex);
+
+        }
+    }
+}
+

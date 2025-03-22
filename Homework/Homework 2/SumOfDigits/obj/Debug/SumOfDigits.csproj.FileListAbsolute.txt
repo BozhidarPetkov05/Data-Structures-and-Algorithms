@@ -1,0 +1,8 @@
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Homework\Homework 2\SumOfDigits\bin\Debug\SumOfDigits.exe.config
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Homework\Homework 2\SumOfDigits\bin\Debug\SumOfDigits.exe
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Homework\Homework 2\SumOfDigits\bin\Debug\SumOfDigits.pdb
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Homework\Homework 2\SumOfDigits\obj\Debug\SumOfDigits.csproj.AssemblyReference.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Homework\Homework 2\SumOfDigits\obj\Debug\SumOfDigits.csproj.SuggestedBindingRedirects.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Homework\Homework 2\SumOfDigits\obj\Debug\SumOfDigits.csproj.CoreCompileInputs.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Homework\Homework 2\SumOfDigits\obj\Debug\SumOfDigits.exe
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Homework\Homework 2\SumOfDigits\obj\Debug\SumOfDigits.pdb
