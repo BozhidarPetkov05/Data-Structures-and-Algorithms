@@ -11,7 +11,19 @@ namespace Week_3
     {
         static void Main(string[] args)
         {
-            
+            int n = 8;
+            Console.WriteLine($"{n}! = {Factorial(n)}");
+            Console.WriteLine($"Fibonacci: {n} -> {Fibonacci(n)}");
+            Console.WriteLine("GCD Recursice: " + GCDRecursive(30, 12));
+            Console.WriteLine("GCD Iterative: " + GCDIterative(30, 12));
+
+            int[] arr = { 9, 3, 1, 0, 7, 2, 8, 4 };
+            MergeSort(arr, 0, arr.Length - 1);
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.Write(arr[i] + " ");
+            }
         }
 
         public static int Factorial(int n)
@@ -50,7 +62,7 @@ namespace Week_3
             {
                 int temp = num1 % num2;
                 num1 = num2;
-                num1 = temp;
+                num2 = temp;
             }
 
             return num2;
@@ -134,7 +146,7 @@ namespace Week_3
                 }
                 else
                 {
-                    arr[mainIndex++] = temp2[index2];
+                    arr[mainIndex] = temp2[index2];
                     index2++;
                 }
                 mainIndex++;
