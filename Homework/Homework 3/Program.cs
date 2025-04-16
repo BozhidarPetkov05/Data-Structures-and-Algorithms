@@ -32,11 +32,33 @@ namespace Homework_3
             Console.WriteLine("Removed negatives: " + string.Join(", ", negativesList));
             */
 
-            DoubleLinkedList<int> dll = new DoubleLinkedList<int>();
+            //4. Задача тест
+            /*DoubleLinkedList<int> dll = new DoubleLinkedList<int>();
             dll.Add(1);
             dll.Add(2);
             dll.Add(3);
-            dll.Print();
+            dll.InsertAtIndex(0, 2);
+            dll.Remove(3);
+            dll.Print();*/
+
+            //5. Задача тест
+            //int[] arr = { 1, 2, 4, 11, 12, 8 };
+            //int num = 2;
+            //Console.WriteLine($"Max: {FindMax(arr, num)}");
+
+            //6. Задача тест
+            //char[,] cells = {
+            //    { 'a', 'a', 'b', 'b', 'a' },
+            //    { 'a', 'a', 'b', 'b', 'a' },
+            //    { 'a', 'a', 'a', 'c', 'b' }
+            //};
+
+            //Console.WriteLine(CountRegions(cells));
+
+            //7. Задача
+            string input = Console.ReadLine();
+            BinaryTree tree = new BinaryTree(input);
+            Console.WriteLine(tree.IsValid(tree.Root, null, null));
         }
 
         //1. Задача
@@ -123,6 +145,69 @@ namespace Homework_3
                 }
             }
             return list;
+        }
+
+        //5. Задача
+        public static int FindMax(int[] arr, int num)
+        {
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] == num)
+                {
+                    num *= 2;
+                }
+            }
+            return num;
+        }
+
+        //6. Задача
+        public static int CountRegions(char[,] cells)
+        {
+            int rows = cells.GetLength(0);
+            int cols = cells.GetLength(1);
+            
+            bool[,] visited = new bool[rows, cols];
+            
+            int regionCount = 0;
+
+            int[] dRow = { -1, 1, 0, 0 };
+            int[] dCol = { 0, 0, -1, 1 };
+
+            for (int i = 0; i < rows; i++)
+            {
+                for (int j = 0; j < cols; j++)
+                {
+                    if (!visited[i, j])
+                    {
+                        Queue<(int, int)> queue = new Queue<(int, int)>();
+                        queue.Enqueue((i, j));
+                        visited[i, j] = true;
+                        char symbol = cells[i, j];
+
+                        while (queue.Count > 0)
+                        {
+                            var (r, c) = queue.Dequeue();
+
+                            for (int d = 0; d < 4; d++)
+                            {
+                                int newRow = r + dRow[d];
+                                int newCol = c + dCol[d];
+
+                                if (newRow >= 0 && newRow < rows && newCol >= 0 && newCol < cols &&
+                                    !visited[newRow, newCol] && cells[newRow, newCol] == symbol)
+                                {
+                                    queue.Enqueue((newRow, newCol));
+                                    visited[newRow, newCol] = true;
+                                }
+                            }
+                        }
+
+                        regionCount++;
+                    }
+                }
+            }
+
+            return regionCount;
         }
     }
 }
