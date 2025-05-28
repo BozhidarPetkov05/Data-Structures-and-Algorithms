@@ -1,0 +1,15 @@
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Data Types Testing\bin\Debug\net7.0\Data Types Testing.exe
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Data Types Testing\bin\Debug\net7.0\Data Types Testing.deps.json
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Data Types Testing\bin\Debug\net7.0\Data Types Testing.runtimeconfig.json
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Data Types Testing\bin\Debug\net7.0\Data Types Testing.dll
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Data Types Testing\bin\Debug\net7.0\Data Types Testing.pdb
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Data Types Testing\obj\Debug\net7.0\Data Types Testing.csproj.AssemblyReference.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Data Types Testing\obj\Debug\net7.0\Data Types Testing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Data Types Testing\obj\Debug\net7.0\Data Types Testing.AssemblyInfoInputs.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Data Types Testing\obj\Debug\net7.0\Data Types Testing.AssemblyInfo.cs
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Data Types Testing\obj\Debug\net7.0\Data Types Testing.csproj.CoreCompileInputs.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Data Types Testing\obj\Debug\net7.0\Data Types Testing.dll
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Data Types Testing\obj\Debug\net7.0\refint\Data Types Testing.dll
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Data Types Testing\obj\Debug\net7.0\Data Types Testing.pdb
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Data Types Testing\obj\Debug\net7.0\Data Types Testing.genruntimeconfig.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Data Types Testing\obj\Debug\net7.0\ref\Data Types Testing.dll

@@ -55,10 +55,10 @@ namespace Homework_3
 
             //Console.WriteLine(CountRegions(cells));
 
-            //7. Задача
-            string input = Console.ReadLine();
-            BinaryTree tree = new BinaryTree(input);
-            Console.WriteLine(tree.IsValid(tree.Root, null, null));
+            //7. Задача тест
+            //string input = Console.ReadLine();
+            //BinaryTree tree = new BinaryTree(input);
+            //Console.WriteLine(tree.IsValid(tree.Root, null, null));
         }
 
         //1. Задача
