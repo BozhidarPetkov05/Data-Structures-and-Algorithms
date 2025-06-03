@@ -1,0 +1,15 @@
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\FinalPrep\bin\Debug\net7.0\FinalPrep.exe
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\FinalPrep\bin\Debug\net7.0\FinalPrep.deps.json
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\FinalPrep\bin\Debug\net7.0\FinalPrep.runtimeconfig.json
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\FinalPrep\bin\Debug\net7.0\FinalPrep.dll
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\FinalPrep\bin\Debug\net7.0\FinalPrep.pdb
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\FinalPrep\obj\Debug\net7.0\FinalPrep.csproj.AssemblyReference.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\FinalPrep\obj\Debug\net7.0\FinalPrep.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\FinalPrep\obj\Debug\net7.0\FinalPrep.AssemblyInfoInputs.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\FinalPrep\obj\Debug\net7.0\FinalPrep.AssemblyInfo.cs
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\FinalPrep\obj\Debug\net7.0\FinalPrep.csproj.CoreCompileInputs.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\FinalPrep\obj\Debug\net7.0\FinalPrep.dll
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\FinalPrep\obj\Debug\net7.0\refint\FinalPrep.dll
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\FinalPrep\obj\Debug\net7.0\FinalPrep.pdb
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\FinalPrep\obj\Debug\net7.0\FinalPrep.genruntimeconfig.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\FinalPrep\obj\Debug\net7.0\ref\FinalPrep.dll

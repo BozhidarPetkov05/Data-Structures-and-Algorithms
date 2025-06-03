@@ -1,0 +1,15 @@
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Graph\bin\Debug\net7.0\Graph.exe
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Graph\bin\Debug\net7.0\Graph.deps.json
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Graph\bin\Debug\net7.0\Graph.runtimeconfig.json
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Graph\bin\Debug\net7.0\Graph.dll
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Graph\bin\Debug\net7.0\Graph.pdb
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Graph\obj\Debug\net7.0\Graph.csproj.AssemblyReference.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Graph\obj\Debug\net7.0\Graph.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Graph\obj\Debug\net7.0\Graph.AssemblyInfoInputs.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Graph\obj\Debug\net7.0\Graph.AssemblyInfo.cs
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Graph\obj\Debug\net7.0\Graph.csproj.CoreCompileInputs.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Graph\obj\Debug\net7.0\Graph.dll
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Graph\obj\Debug\net7.0\refint\Graph.dll
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Graph\obj\Debug\net7.0\Graph.pdb
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Graph\obj\Debug\net7.0\Graph.genruntimeconfig.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Graph\obj\Debug\net7.0\ref\Graph.dll

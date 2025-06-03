@@ -1,0 +1,15 @@
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Sortings\bin\Debug\net7.0\Sortings.exe
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Sortings\bin\Debug\net7.0\Sortings.deps.json
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Sortings\bin\Debug\net7.0\Sortings.runtimeconfig.json
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Sortings\bin\Debug\net7.0\Sortings.dll
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Sortings\bin\Debug\net7.0\Sortings.pdb
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Sortings\obj\Debug\net7.0\Sortings.csproj.AssemblyReference.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Sortings\obj\Debug\net7.0\Sortings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Sortings\obj\Debug\net7.0\Sortings.AssemblyInfoInputs.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Sortings\obj\Debug\net7.0\Sortings.AssemblyInfo.cs
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Sortings\obj\Debug\net7.0\Sortings.csproj.CoreCompileInputs.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Sortings\obj\Debug\net7.0\Sortings.dll
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Sortings\obj\Debug\net7.0\refint\Sortings.dll
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Sortings\obj\Debug\net7.0\Sortings.pdb
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Sortings\obj\Debug\net7.0\Sortings.genruntimeconfig.cache
+C:\Users\XidZ01\Desktop\Software Engineering\1st Course 2nd Semester\Data-Structures-and-Algorithms\Exam Materials\Exam Prep\Sortings\obj\Debug\net7.0\ref\Sortings.dll
